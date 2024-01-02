@@ -634,7 +634,7 @@ body {
   left: -15px;
   right: 0;
   height: 2px;
-  background-color: #282828;
+  background-color: #3f3f3f;
 }
 .intro--banner::after {
   content: "";
@@ -704,7 +704,7 @@ body {
 .intro--options > a {
   max-width: 250px;
   text-decoration: none;
-  color: #282828;
+  color: #3f3f3f;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
@@ -1007,8 +1007,8 @@ body {
 .about--banner::before {
   content: "";
   position: absolute;
-  top: 20px;
-  left: 200px;
+  top: -50px;
+  left: 100px;
   -webkit-transform: rotate(-25deg);
   transform: rotate(-25deg);
   border: 5px solid rgb(106,190,48);
@@ -1037,8 +1037,8 @@ body {
 .about--banner h2::before {
   content: "";
   position: absolute;
-  top: 60px;
-  left: 268px;
+  top: -9px;
+  left: 187px;
   width: 30px;
   height: 30px;
   background-color: rgb(106,190,48);
@@ -1047,8 +1047,8 @@ body {
 .about--banner h2::after {
   content: "";
   position: absolute;
-  top: 255px;
-  left: 255px;
+  top: 190px;
+  left: 330px;
   width: 10px;
   height: 10px;
   background-color: rgb(106,190,48);
@@ -1103,13 +1103,13 @@ body {
   background-repeat: no-repeat;
 }
 .about--options > a:nth-child(1) {
-  background-image: url("../img/about-winners.jpg");
+  background-image: url("../img/about-figure.png");
 }
 .about--options > a:nth-child(2) {
-  background-image: url("../img/about-philosophy.jpg");
+  background-image: url("../img/about-pixel.png");
 }
 .about--options > a:nth-child(3) {
-  background-image: url("../img/about-history.jpg");
+  background-image: url("../img/about-photo.png");
 }
 .about--options > a:hover h3 {
   bottom: -50px;
@@ -1251,10 +1251,10 @@ body {
   margin: 0 auto 25px auto;
 }
 .contact--lockup .modal--options li:nth-child(1) {
-  background-color: rgb(106,190,48);
+  background-color: rgb(10,102,194);
 }
 .contact--lockup .modal--options li:nth-child(2) {
-  background-color: #b4c04b;
+  background-color: rgb(28,170,217);
 }
 .contact--lockup .modal--options li:nth-child(3) {
   margin-bottom: 0;
